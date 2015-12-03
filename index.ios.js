@@ -28,7 +28,7 @@ class StarterNavigatorIOS extends React.Component {
     );
   }
 
-};
+}
 
 /**
  * 1st Screen
@@ -54,7 +54,7 @@ class FirstScreen extends React.Component {
     return (
       <View style={styles.container}>
         <TouchableHighlight
-          underlayColor='#B5B5B5'
+          underlayColor="#B5B5B5"
           onPress={(this.showSecondScreen)}>
           <Text style={styles.title}>
             Show Second Screen
@@ -64,7 +64,7 @@ class FirstScreen extends React.Component {
     );
   }
  
-};
+}
 
 /**
  * 2nd Screen
@@ -79,7 +79,7 @@ class SecondScreen extends React.Component {
     );
   }
  
-};
+}
 
 var styles = StyleSheet.create({
   navContainer: {
