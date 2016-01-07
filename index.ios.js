@@ -4,15 +4,14 @@
  */
 'use strict';
 
-var React = require('react-native');
-var {
+import React, {
   AppRegistry,
   NavigatorIOS,
   TouchableHighlight,
   StyleSheet,
   Text,
   View,
-} = React;
+} from 'react-native';
 
 class StarterNavigatorIOS extends React.Component {
 
